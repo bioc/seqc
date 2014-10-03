@@ -1,0 +1,14 @@
+citHeader("Please cite seqc as below:")
+
+citEntry(entry="Article",
+ title="A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium",
+  author="Su Z, Labaj PP, Li S, Thierry-Mieg J, Thierry-Mieg D, Shi W, Wang C, Schroth GP, Setterquist RA, Thompson JF, et al. (SEQC/MAQC-III Consortium)",
+  journal="Nature Biotechnology",
+  volume=32,
+  number=9,
+  pages="903--914",
+  year=2014,
+
+ textVersion = paste("Su Z, Labaj PP, Li S, Thierry-Mieg J, Thierry-Mieg D, Shi W, Wang C, Schroth GP, Setterquist RA, Thompson JF, et al. (SEQC/MAQC-III Consortium). A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium. Nature Biotechnology, 32(9), 903-914, 2014")
+)
+
