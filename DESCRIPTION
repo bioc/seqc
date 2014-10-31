@@ -14,7 +14,7 @@ Description: The SEQC/MAQC-III Consortium has produced benchmark
         the exon-exon junctions discovered from the study. TaqMan
         RT-PCR data for ~1000 genes and ERCC spike-in sequence data are
         included in this package as well.
-URL: http://bioconductor.org/packages/release/bioc/html/seqc.html
+URL: http://bioconductor.org/packages/release/data/experiment/html/seqc.html
 License: GPL-3
 LazyData: yes
 biocViews: ExperimentData, RNAseqData, ExpressionData,
