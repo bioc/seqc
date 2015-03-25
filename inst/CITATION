@@ -1,14 +1,13 @@
 citHeader("Please cite seqc as below:")
 
 citEntry(entry="Article",
- title="A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium",
-  author="Zhenqiang Su and Paweł P. Łabaj and Sheng Li and Jean Thierry-Mieg and Danielle Thierry-Mieg and Wei Shi and Charles Wang and Gary P. Schroth and Robert A. Setterquist and John F. Thompson and others",
-  journal="Nature Biotechnology",
-  volume=32,
-  number=9,
-  pages="903--914",
-  year=2014,
+    title = "A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium",
+    author = "Zhenqiang Su and Pawel P. Labaj and Sheng Li and Jean Thierry-Mieg and Danielle Thierry-Mieg and Wei Shi and Charles Wang and Gary P. Schroth and Robert A. Setterquist and John F. Thompson and others",
+    journal="Nature Biotechnology",
+    year = 2014,
+    volume = 32,
+    issue = 9,
+    pages = "903-14",
 
- textVersion = "Su Z, Łabaj PP, Li S, Thierry-Mieg J, Thierry-Mieg D, Shi W, Wang C, Schroth GP, Setterquist RA, Thompson JF, et al. (2014) A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium. Nature Biotechnology, 32(9):903-914."
-)
-
+    textVersion = "Su Z, Labaj PP, Li S, Thierry-Mieg J, Thierry-Mieg D, Shi W, Wang C, Schroth GP, Setterquist RA, Thompson JF, et al. (2014) A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium. Nature Biotechnology, 32(9):903-914."
+    )
