@@ -1,7 +1,7 @@
 Package: seqc
 Type: Package
 Title: RNA-seq data generated from SEQC (MAQC-III) study
-Version: 1.13.0
+Version: 1.14.0
 Date: 2016-06-09
 Author: Yang Liao and Wei Shi
 Maintainer: Yang Liao <liao@wehi.edu.au> and Wei Shi <shi@wehi.edu.au>
