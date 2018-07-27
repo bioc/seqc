@@ -15,8 +15,11 @@ The TaqMan data were downloaded from GEO database (GSE5350).
 
 Please read the vignette document before using this package by using R command "vignette('seqc')".
 }
+\usage{
+taqman
+}
 \author{
-Yang Liao and Wei Shi
+Yang Liao, Wei Shi and Gordon K Smyth
 }
 \references{
 Su Z, Labaj PP, Li S, Thierry-Mieg J, Thierry-Mieg D, Shi W, Wang C, Schroth GP, Setterquist RA, Thompson JF, et al. (SEQC/MAQC-III Consortium). A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequence Quality Control consortium. Nature Biotechnology, 32(9):903-14, 2014

@@ -1,2 +1,6 @@
 
 exportPattern("^[[:alpha:]]+")
+
+importFrom("utils","tail")
+
+importFrom("Biobase","ExpressionSet","pData<-","fData<-")

@@ -130,9 +130,9 @@ seqc.samples <- function(feature=NULL, annotation=NULL, platform=NULL,
     })),
     center=factor(sapply(s.info, tail, 1L)))
 
-  out <- ExpressionSet(counts)
-  pData(out) <- pd
-  fData(out) <- meta[[1]]
+  out <- Biobase::ExpressionSet(counts)
+  Biobase::pData(out) <- pd
+  Biobase::fData(out) <- meta[[1]]
   out
 }
 

@@ -1,9 +1,9 @@
 Package: seqc
 Type: Package
 Title: RNA-seq data generated from SEQC (MAQC-III) study
-Version: 1.15.0
-Date: 2016-06-09
-Author: Yang Liao and Wei Shi
+Version: 1.15.1
+Date: 2018-07-27
+Author: Yang Liao and Wei Shi with contributions from Gordon K Smyth and Steve Lianoglou.
 Maintainer: Yang Liao <liao@wehi.edu.au> and Wei Shi <shi@wehi.edu.au>
 Description: The SEQC/MAQC-III Consortium has produced benchmark
         RNA-seq data for the assessment of RNA sequencing technologies
@@ -19,3 +19,4 @@ License: GPL-3
 LazyData: yes
 biocViews: ExperimentData, RNASeqData, qPCRData, SequencingData
 Depends: R (>= 2.10)
+Imports: utils, Biobase
