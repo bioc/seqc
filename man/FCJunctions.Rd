@@ -54,13 +54,61 @@ This package contains 46 exon-exon junction tables (data frames). All these tabl
 
 Please read the vignette document before using this package by using R command "vignette('seqc')".
 }
+\usage{
+ILM_junction_AGR_A
+ILM_junction_AGR_B
+ILM_junction_AGR_C
+ILM_junction_AGR_D
+ILM_junction_BGI_A
+ILM_junction_BGI_B
+ILM_junction_BGI_C
+ILM_junction_BGI_D
+ILM_junction_CNL_A
+ILM_junction_CNL_B
+ILM_junction_CNL_C
+ILM_junction_CNL_D
+ILM_junction_COH_A
+ILM_junction_COH_B
+ILM_junction_COH_C
+ILM_junction_COH_D
+ILM_junction_MAY_A
+ILM_junction_MAY_B
+ILM_junction_MAY_C
+ILM_junction_MAY_D
+ILM_junction_NVS_A
+ILM_junction_NVS_B
+ILM_junction_NVS_C
+ILM_junction_NVS_D
+LIF_junction_LIV_A
+LIF_junction_LIV_B
+LIF_junction_LIV_C
+LIF_junction_LIV_D
+LIF_junction_NWU_A
+LIF_junction_NWU_B
+LIF_junction_NWU_C
+LIF_junction_NWU_D
+LIF_junction_PSU_A
+LIF_junction_PSU_B
+LIF_junction_PSU_C
+LIF_junction_PSU_D
+LIF_junction_SQW_A
+LIF_junction_SQW_B
+LIF_junction_SQW_C
+LIF_junction_SQW_D
+ROC_junction_MGP_A
+ROC_junction_MGP_B
+ROC_junction_NYU_A
+ROC_junction_NYU_B
+ROC_junction_SQW_A
+ROC_junction_SQW_B
+}
 \details{
 The 46 exon-exon junction tables are data frames named as (Platform)_junction_(Site)_(Sample). For example, data frame "ILM_junction_BGI_C" contains all junctions detected from the RNA-seq libraries of sample C sequenced at BGI by using the Illumina HiSeq 2000 device.
 
 Each of the 46 data frames has four columns: the chromosome names, the two sides of the junctions and the number of supporting reads to the junctions. More precisely, the two sides of a junction are defined as the chromosomal locations (coordinates starting from one) of the last base in the exon before this junction, and the first base in the exon after this junction. It is also noted that a read may supporting zero, one or multiple exon-exon junctions depending on the number of exon-exon junctions in it.
 }
 \author{
-Yang Liao and Wei Shi
+Yang Liao, Wei Shi and Gordon K Smyth
 }
 \references{
 Liao Y, Smyth GK and Shi W. The Subread aligner: fast, accurate and scalable read mapping by seed-and-vote. Nucleic Acids Research, 41(10):e108, 2013
