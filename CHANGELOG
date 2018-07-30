@@ -1,5 +1,5 @@
 30 July 2018 - 1.15.2
-(1) Fix the parameter list for definition of create.SEQC.junction.eSet and .create.SEQC.taqman.eSet functions.
+(1) Fix the parameter list for definition of .create.SEQC.junction.eSet and .create.SEQC.taqman.eSet functions.
 
 27 July 2018 - 1.15.1
 (1) Gordon modified name space, R code and documentation.
