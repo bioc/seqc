@@ -136,11 +136,11 @@ seqc.samples <- function(feature=NULL, annotation=NULL, platform=NULL,
   out
 }
 
-.create.SEQC.junction.eSet <- function(x) {
+.create.SEQC.junction.eSet <- function(platform, center) {
   stop("Junction stuff not yet implemented")
 }
 
-.create.SEQC.taqman.eSet <- function(x) {
+.create.SEQC.taqman.eSet <- function() {
   stop("Taqman generation not yet implemented")
 }
 
